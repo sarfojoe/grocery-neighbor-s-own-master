@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="success" variant="dark">
       <Navbar.Brand href="/">Grocery Neighbors</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
@@ -30,7 +30,7 @@ const Header = () => {
             placeholder="Search"
             className="mr-sm-2"
           />
-          <Button variant="outline-info" type="submit">
+          <Button variant="outline-secondary" type="submit">
             Search
           </Button>
         </Form>

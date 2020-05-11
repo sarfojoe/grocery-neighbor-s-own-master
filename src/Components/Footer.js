@@ -21,7 +21,7 @@ const Footer = () => {
         <hr />
         <div className="row">
           <p className="col-sm">
-            &copy;{new Date().getFullYear()} Grocery Neighbors| All rights
+            &copy;{new Date().getFullYear()} Grocery Neighbors | All rights
             reserved | Privacy
           </p>
         </div>
