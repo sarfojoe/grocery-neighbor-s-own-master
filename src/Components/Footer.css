@@ -2,7 +2,7 @@
   color: white;
   background-color: green;
   padding-top: 3rem;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
